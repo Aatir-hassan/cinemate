@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import Backup from "../assets/images/backup.png";
 import { useTitle } from "../hooks/useTitle";
-import Backup from "../assets/images/backup.png"
+
 
 export const MovieDetail = () => {
   const params = useParams();
